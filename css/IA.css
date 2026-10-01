@@ -1,0 +1,75 @@
+body{
+    background-image: url("../css/fondoIA.jpg");
+    background-color: rgb(3, 27, 56);
+    margin: 0;
+    line-height: 1.6;
+    color:  rgb(201, 191, 191);
+}
+
+/*font-family: Helvetica;*/
+
+.encabezado{
+    background-color: #6876c2;
+    color: white;
+    padding: 25px;
+}
+
+#titulo{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#tit2{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    color: white;
+    margin: 12px;
+    font-size: 25px;
+}
+
+.Contenedor{
+    margin: 20px auto;
+    background-color: rgba(117, 109, 109, 0);
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.C2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.dosCol{
+    flex-basis: calc(40% - 20px);
+    margin: 10px auto;
+    padding: 20px;
+    background-color:cadetblue;
+    box-sizing: border-box;
+
+}
+
+.columna-izquierda{
+    background-color: #6876c2;
+
+}
+
+.columna-derecha{
+    background-color: #6876c2;
+    
+}
+
+
