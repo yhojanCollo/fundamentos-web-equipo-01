@@ -1,0 +1,192 @@
+
+.container2
+{
+    background-color: #213885;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 20%; 
+    margin: 0 auto;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cccacc;
+}
+
+header
+{
+    font-weight: bold;
+    text-align: center;
+    background-color: #5f3475;
+    color: #ecdfd2;
+    margin: 1%;
+}
+
+.contenedor 
+{
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.trescolumnas
+{
+flex-basis: 30%;
+padding: 20px;
+box-sizing: border-box;
+border-radius: 5px;
+margin: 10px;
+}
+
+.doscolumnas
+{
+    flex-basis: calc(40% - 20px);
+    margin: 10px auto;
+    padding: 20px;
+    background-color:cadetblue;
+    box-sizing: border-box;
+    background-color: #5f3475;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 25%; 
+
+}
+
+h2
+{
+    color: white;
+    background-color: #213885;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.columna-izquierda
+{
+    background-color: #081849;
+    text-align: justify;
+    color: white;
+}
+
+.columna-central
+{
+    background-color:#081849;
+    text-align: justify;
+    color: white;
+}
+.columna-derecha
+{
+    background-color: #081849;
+    text-align: justify;
+    color: white;
+}
+
+.boton-izquierda
+{
+    background-color: #893172;
+    text-align: center;
+    color: white;
+}
+
+.boton-central
+{
+    background-color:#893172;
+    text-align: center;
+    color: white;
+}
+.boton-derecha
+{
+    background-color: #893172;
+    text-align: center;
+    color: white;
+}
+
+.contenedor2 
+{
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+footer
+{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* css para Computación Cuántica  */
+.intro
+{
+    text-align: center;
+    font-size: 18px;
+    color: #081849;
+}
+.menu
+{
+    background-color: #213885;
+    text-align: center;
+    padding: 10px;
+}
+.menu a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+.menu a:hover
+{
+    color: #00c8e0;
+}
+.seccion
+{
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 6px solid #00c8e0;
+}
+.seccion h3
+{
+    color: #5f3475;
+}
+.seccion p
+{
+    line-height: 1.6;
+}
+.seccion img
+{
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #00c8e0;
+}
+.tabla
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabla th
+{
+    background-color: #5f3475;
+    color: white;
+    padding: 10px;
+}
+.tabla td
+{
+    border: 1px solid #213885;
+    padding: 10px;
+}
