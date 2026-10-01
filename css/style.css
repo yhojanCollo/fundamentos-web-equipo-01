@@ -1,4 +1,3 @@
-
 .container2
 {
     background-color: #213885;
@@ -189,4 +188,149 @@ footer
 {
     border: 1px solid #213885;
     padding: 10px;
+}
+
+
+
+
+/* css para IA*/
+.body2{
+    background-image: url("../css/fondoIA.jpg");
+    background-color: rgb(3, 27, 56);
+    margin: 0;
+    line-height: 1.6;
+    color:  rgb(255, 253, 253);
+}
+
+
+.encabezado{
+    background-color: #6876c200;
+    color: white;
+    padding: 25px;
+    margin: 0;
+}
+
+#titulo{
+    font-family: Helvetica;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#tit2{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+    background-color: #6876c264;
+    text-align: center;
+    padding: 10px;
+    width: 996px;
+    margin: 0px 0px 0px 250px;
+    border: solid;
+    border-block-color: white;
+    border-radius: 10px;
+}
+
+.nav2 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.ContS{
+    margin: 20px auto;
+    background-color: rgba(117, 109, 109, 0);
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.C2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.dosCol{
+    flex-basis: calc(40% - 20px);
+    margin: 10px auto;
+    padding: 20px;
+    background-color:cadetblue;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 10px;
+}
+
+.colum-izquierda{
+    background-color: #6876c253;
+
+}
+
+.colum-derecha{
+    background-color: #6876c253;
+    
+}
+
+.seccionS{
+    background-color: #6876c253;
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: solid;
+    border-radius: 10px;
+}
+
+#ImgIA{
+    width: 1130px;
+    height: 550px;
+}
+
+.seccionT{
+    background-color: #6876c253;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border: solid;
+    border-radius: 10px;
+    height: 305px;
+}
+
+.seccionT #tab{
+    margin: 0px 0px 0px 150px;
+    width: 900px;
+    height: 100px;
+    align-items: center;
+}
+
+
+.seccionF{
+    background-color: #6876c253;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: solid;
+    border-radius: 10px;
+}
+
+
+.footer2{
+    background-color: #6876c2b6;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
 }
